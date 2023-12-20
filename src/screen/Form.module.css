@@ -1,0 +1,83 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.form{
+    width: 50vw;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.header{
+    width: 47vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonContainer .btn{
+    color: grey;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.buttonContainer .btn:hover{
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+}
+.buttonContainer{
+   display: flex;
+   justify-content: end;
+   padding: 10px 0;
+}
+h2{
+    font-weight: 500;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstInput{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.ThirdInput{
+    display: flex;
+    padding: 5px 20px;
+}
+.fourthInput{
+    display: flex;
+    padding: 10px 0;
+    padding: 5px 20px;
+    margin-top: 1px;
+}
+.secondInput{
+    display: flex;
+    padding: 5px 20px;
+}
+.folderBorder{
+    border: 1px solid lightgray;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.textarea{
+    padding: 5px 20px;
+    display: flex;
+}
+.successBox{
+    margin-bottom: 10px;
+}
+.errorMsg{
+    color: red;
+}
